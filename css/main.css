@@ -15,6 +15,136 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: Arial, serif;
+  background: #d3dfd7;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #282c34;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 1em;
+
+}
+header1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #95A2AA;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 1em;
+
+}
+
+.spacer {
+  padding: 3.3em;
+}
+
+.titleFeature {
+  margin: 1em;
+  color: #d3dfd7;
+  alignment: center;
+  font-size: 2em;
+}
+
+.modelingInfoBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2em 4em;
+  border-radius: 3em;
+  background: #183244;
+  padding: 2em;
+  height: auto;
+  color: #d3dfd7;
+}
+.modelingInfoBox1 {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2em 4em;
+  border-radius: 3em;
+  background: #183244;
+  padding: 2em;
+  height: auto;
+  color: #d3dfd7;
+}
+
+.titleBackground {
+  background-image: url("img_1.png");
+  background-size: 100%;
+  padding: 9em;
+  display: flex;
+  justify-content: center;
+}
+
+
+a {
+  color: #d3dfd7;
+}
+
+.textItems {
+  width: 80%;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  align-self: stretch;
+}
+
+.divisionTitle {
+  padding: 2em 2em 2em 5em;
+  color: #d3dfd7;
+  background: #282c34;
+}
+.bigImage {
+  width: 90%;
+  align-self: center;
+}
+.medImage {
+  width: 50%;
+  align-self: center;
+}
+
+.basicFlexBox {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-self: stretch;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 4em;
+}
+
+
+.basicVertFlexBox {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-self: stretch;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+p {
+  text-align: center;
+}
+
+.titleThing{
+  color: #282c34;
+  font-size: 28px;
+  text-align: center;
 }
 
 /*

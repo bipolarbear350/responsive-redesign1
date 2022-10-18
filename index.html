@@ -24,8 +24,154 @@
 
 <body>
 
+<header class="topBar" id="topBar">
+  <div class="headerItems" id="headerItems">
+    <div class="titleFeature" id="titleFeature">Responsive Redesign</div>
+  </div>
+</header>
+<div class="spacer"></div>
+<div class="divisionTitle">
+  <div class="innerDivisionTitle">
+    Part 1: Site Selection and Analysis
+  </div>
+</div>
+<div class="basicVertFlexBox">
+  <p>The page I chose for this project was westnyackendo.com, the website of a local endocrinology office</p>
+  <p>I chose this page since their site is generally pretty out of date, and a design I could feasibly improve on,
+  at least in the sense of scaling and consistency</p>
+</div>
+<div class="basicFlexBox">
+  <img src="css/img.png" class="bigImage">
+</div>
+<div class="basicVertFlexBox">
+  <p>Among some of the basic problems were:</p>
+  <p>Top text is not actual text, just a low res image. When clicked, it just takes you to the top of the page.</p>
+  <p>Not very informative slideshow</p>
+  <p>Patient portal link is located at the top, but definitely not where you would expect a button to be placed.</p>
+  <p>Definitely does not work in terms of mobile design and other formats. Adjusting the page size causes very unexpected results to occur.</p>
+  <p>Header feels like it hangs a little too low, especially on mobile. Menu popout also has issues with visibility.</p>
+  <p>
+    Inconsistent fonts
+  </p>
+</div>
+<div class="basicVertFlexBox">
+  <p>Accessibility issues:</p>
+  <p>No errors, but a few images are lacking alt text.
+    The page is very simple and seems like that makes it easily accessible, but leads it to look somewhat unprofessional.
+  </p>
+</div>
+
+<div class="divisionTitle">
+  <div class="innerDivisionTitle">
+    Part 2: Prototyping
+  </div>
+</div>
+
+
+<div class="basicVertFlexBox">
+  <div class="titleThing">Lo-fi Prototyping</div>
+</div>
+<div class="basicFlexBox">
+  <img src="img/web-lofi.png" class="medImage">
+  <div class="basicVertFlexBox">
+    <p>Lofi computer design</p>
+    <p>A: consistent banner, which will remain fixed so that the important items, contact and the patient portal are
+      visible at all times to patients
+    </p>
+    <p>B: Redesigned patient portal button consistent with page
+    </p>
+    <p>C: popout menu for nonessential navigation, increases visible content on mobile
+    </p>
+    <p>D: Restructured top section, static description that doesn't waste visibility with arrows to swap pictures
+    </p>
+  </div>
+</div>
+<div class="basicFlexBox">
+  <img src="img/ipad-lofi.png" class="medImage">
+  <div class="basicVertFlexBox">
+    <p>Lofi tablet design</p>
+    <p>E: Banner is functionally same, just items get closer to eachother
+    </p>
+    <p>F: Doctor profiles adjust to width
+    </p>
+  </div>
+</div>
+<div class="basicFlexBox">
+  <img src="img/phone-lofi.png" class="medImage">
+  <div class="basicVertFlexBox">
+    <p>Lofi phone design</p>
+    <p>G: Banner has reduced content now, with the important items, number and patient portal, getting their required
+      amount of space
+    </p>
+    <p>H: Popup menu covers same horizontal distance for ease of visibility, and returns to the side so that menu
+      options do not cover page info
+    </p>
+    <p>I: Doctor profiles adjust down to a column of one across
+    </p>
+  </div>
+</div>
+<div class="basicVertFlexBox">
+  <div class="titleThing">Style Guide</div>
+</div>
+<div class="basicFlexBox">
+  <img src="img/styleSheet.png" class="medImage">
+  <div class="basicVertFlexBox">
+    <p>The page is generally uninteractive. This means that buttons will take you off page, or trigger an animated
+      element (ie., menu popping out), so visual feedback in terms of color changes are not necessary
+    </p>
+    <p>Interactable buttons will be indicated with a drop shadow, as the site tends to lean towards older demographics,
+      which prefer web interfaces to look more like real objects.
+    </p>
+    <p>The color scheme is generally very muted, as this is a professional medical site
+    </p>
+  </div>
+</div>
+<div class="basicVertFlexBox">
+  <div class="titleThing">Hi-fi Prototyping</div>
+</div>
+<div class="basicFlexBox">
+  <img src="img/hifi-comp-annotated.png" class="medImage">
+  <div class="basicVertFlexBox">
+    <p>A: fixed position flexbox banner, fixed position button element right below it</p>
+    <p>B: div with image of recognizable local land structure as background, and inner div item that contains a flexbox
+      with text items
+    </p>
+    <p>C: Column flexbox, items within scale with width of page
+    </p>
+    <p>D: Row flexbox, items within are set sizes, and flex-wrapped so that smaller pages will have appropriately spaced
+      items
+    </p>
+  </div>
+</div>
+<div class="basicFlexBox">
+  <img src="img/hifi-tablet-annotated.png" class="medImage">
+  <div class="basicVertFlexBox">
+    <p>E: header items come closer together</p>
+    <p>F: Other items text becomes larger relative to the box backgrounds behind them, as screen size gets smaller</p>
+  </div>
+</div>
+<div class="basicFlexBox">
+  <img src="img/hifi-phone-annotated.png" class="medImage">
+  <div class="basicVertFlexBox">
+    <p>G: Header items wrap to condense, still keeping important buttons visible</p>
+    <p>H: Doctor information goes down to single file in the flex-wrap</p>
+  </div>
+</div>
+
+<div class="divisionTitle">
+  <div class="innerDivisionTitle">
+    Part 3: Redesigning
+  </div>
+</div>
+
+<div class="modelingInfoBox" id="0">
+  <div class="textItems">
+    <a href="http://westnyackendo.com/" >Original Website</a>
+    <a href="redesigned.html" >Redesigned Website</a>
+  </div>
+</div>
+
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
