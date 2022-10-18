@@ -15,9 +15,13 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  font-family: Arial, serif;
+  font-family: 'Hind', serif;
   background: #d3dfd7;
 }
+.body1 {
+  background: white;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -30,10 +34,24 @@ header {
   margin-bottom: 1em;
 
 }
-header1 {
+
+.headerItems1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.headerItems2 {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.header1 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   background-color: #95A2AA;
   position: fixed;
   top: 0;
@@ -53,6 +71,15 @@ header1 {
   alignment: center;
   font-size: 2em;
 }
+.titleFeature1 {
+  margin: 2em;
+  color: #d3dfd7;
+  font-size: 1.2em;
+  background: #5694BB;
+  padding: .5em;
+  border-radius: 1em;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, .5);
+}
 
 .modelingInfoBox {
   display: flex;
@@ -65,28 +92,54 @@ header1 {
   height: auto;
   color: #d3dfd7;
 }
+.modelingInfoBox2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 2em 6em;
+  border-radius: 1em;
+  background: #C8D6DF;
+  padding: 2em;
+  height: auto;
+  color: #d3dfd7;
+}
+.modelingInfoBox3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20em;
+  height: 30em;
+  border-radius: 1em;
+  background: #C8D6DF;
+  padding: 1em;
+  margin: 1em;
+  color: #d3dfd7;
+}
 .modelingInfoBox1 {
-  width: 400px;
+  width: 600px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 2em 4em;
   border-radius: 3em;
-  background: #183244;
+  background: rgba(255, 255, 255, .85);
   padding: 2em;
   height: auto;
-  color: #d3dfd7;
+  color: #30414B;
 }
-
+.textDesc {
+  color: #656F76;
+  margin-left: 2em;
+}
 .titleBackground {
   background-image: url("img_1.png");
-  background-size: 100%;
+  background-size: 2100px;
   padding: 9em;
   display: flex;
   justify-content: center;
 }
-
-
 a {
   color: #d3dfd7;
 }
@@ -124,6 +177,17 @@ a {
   margin-bottom: 4em;
 }
 
+.basicFlexBox1 {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 4em;
+}
+
 
 .basicVertFlexBox {
   max-width: 100%;
@@ -145,6 +209,21 @@ p {
   color: #282c34;
   font-size: 28px;
   text-align: center;
+}
+
+.doctorPic {
+  width:18em;
+}
+
+.menuButton {
+  background: #5694BB;
+  position: fixed;
+  margin-left: 1.5em;
+  margin-top: 2em;
+  padding: 2em;
+  border-radius: 2em;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, .5);
+  color:white;
 }
 
 /*
